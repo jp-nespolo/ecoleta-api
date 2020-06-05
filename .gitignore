@@ -1,1 +1,4 @@
 node_modules/**
+
+# Execute:
+#git update-index --skip-worktree src/config/index.ts
