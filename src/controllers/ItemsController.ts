@@ -10,7 +10,7 @@ class ItemsController {
       return {
         id: item.id,
         title: item.title,
-        image_url: `${config.serverURL}/${item.image}`,
+        image_url: `${config.serverURL}/uploads/${item.image}`,
       };
     });
 
